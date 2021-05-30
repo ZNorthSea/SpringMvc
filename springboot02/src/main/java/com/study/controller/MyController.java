@@ -23,7 +23,7 @@ public class MyController {
     }
     @RequestMapping("loginPage")
     public String login2(){
-
+        System.out.println("12316465");
         return "main";
     }
 }
